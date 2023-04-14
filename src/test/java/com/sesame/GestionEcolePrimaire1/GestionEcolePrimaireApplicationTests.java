@@ -23,9 +23,9 @@ class GestionEcolePrimaireApplicationTests {
 	private EleveRepository eleveRepository;
 	@Test
 	public void testCreateEleve() {
-	Eleve eleve = new Eleve(null, "mrabet", "saida",1);
-	Eleve e1 = new Eleve(null, "obey", "nesrine",1);
-	Eleve e2 = new Eleve(null, "abidi", "yosra",1);
+	Eleve eleve = new Eleve(null, "mrabet", "saida","1");
+	Eleve e1 = new Eleve(null, "obey", "nesrine","1");
+	Eleve e2 = new Eleve(null, "abidi", "yosra","1");
 	
 	
 	eleveRepository.save(eleve);
